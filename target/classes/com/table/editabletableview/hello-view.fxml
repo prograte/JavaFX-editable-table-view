@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2"
+            fx:controller="com.table.editabletableview.controller.HelloController">
+    <center>
+        <TableView fx:id="table_info" prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="column_id" prefWidth="75.0" text="id"/>
+                <TableColumn fx:id="column_name" prefWidth="132.0" text="name"/>
+                <TableColumn fx:id="column_email" prefWidth="167.0" text="email"/>
+                <TableColumn fx:id="column_notes" prefWidth="249.0" text="notes"/>
+                <TableColumn fx:id="col_update" prefWidth="176.0" text="edit"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
